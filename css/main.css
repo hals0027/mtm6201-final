@@ -1,0 +1,235 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*********************
+Custom Css Starts Here
+*********************/
+
+/* base css */
+h1 {
+    font-family: roboto, sans-serif;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: roboto, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: roboto, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+a {
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    border-color: #342E37;
+}
+
+body {
+    max-width: 1200px;
+    background-color: #FFF0E2;
+    margin: 0 auto;
+}
+
+/* header styles */
+header {
+    background-color: #444D42;
+    padding-top: 2rem;
+}
+
+header h1 {
+    color: #F9DBBD;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #342E37;
+    padding: 1.2rem;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    background-color: #444D42;
+    padding: 0.2rem 0.8rem;
+    border-radius: 10px;
+    color: #F9DBBD;
+    text-decoration: none;
+}
+
+main {
+    padding: 1.5rem 1rem;
+}
+
+blockquote {
+    font-family: momo signature, sans-serif;
+    color: #963638;
+    text-align: center;
+    font-weight: 600;
+    padding: 0 0.8rem 0.8rem;
+}
+
+/* home page specials styles */
+#specials {
+    padding: 1rem 0;
+}
+
+#specials h2, h3 {
+    color: #342E37;
+    padding: 0 0 1rem;
+}
+
+#specials .special-offer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#specials a {
+    display: block;
+    background-color: #963638;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #F9DBBD;
+    text-decoration: none;
+}
+
+/* home page location styles */
+#locations {
+    padding: 1rem 0;
+}
+
+#locations h2, h3 {
+    color: #342E37;
+    padding: 0 0 1rem;
+}
+
+#locations .locations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#locations a {
+    display: block;
+    background-color: #963638;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #F9DBBD;
+    text-decoration: none;
+}
+
+/* footer styles */
+footer {
+    background-color: #342E37;
+    padding: 1rem 1rem;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+footer nav ul li {
+    list-style-type: none;
+}
+
+footer nav ul li a {
+    background-color: #444D42;
+    padding: 0.2rem 0.8rem;
+    border-radius: 10px;
+    color: #F9DBBD;
+    text-decoration: none;
+}
+
+footer hr {
+    border-color: #F9DBBD;
+}
+
+.footer-contact {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    color: #F9DBBD;
+}
